@@ -1,7 +1,3 @@
-"""
-Model inference utility for sentiment analysis
-"""
-
 import json
 import pickle
 from pathlib import Path

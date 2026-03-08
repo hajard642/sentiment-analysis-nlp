@@ -79,11 +79,3 @@ MODEL SIZE:
 Parameters: 66M (DistilBERT) + 1.5K (classification head)
 Disk Size: 268 MB (weights + tokenizer)
 
-RECOMMENDATIONS:
-================
-1. Evaluate on real IMDB/Rotten Tomatoes data
-2. Add sarcasm detection module
-3. Implement confidence calibration
-4. Deploy with monitoring and quarterly retraining
-
-STATUS: Training successful, model ready for deployment
