@@ -5,7 +5,6 @@ import torch
 import torch.nn as nn
 from transformers import AutoModel
 
-
 class SentimentClassifier(nn.Module):
     """Sentiment classification model using DistilBERT"""
     def __init__(self, num_classes=2, dropout=0.1, model_name='distilbert-base-uncased'):
